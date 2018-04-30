@@ -1,0 +1,52 @@
+// #container {margin: 0 auto; max-width: 900px; width: 100%;}
+// #main {background: rgba(255,255,255,0.9); clear: both; max-width: 900px; padding-bottom: 60px;}
+body {
+	// background-attachment: fixed;
+	background-color: #63adfd; // #3f88c5
+	// background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%2390aebb' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+	background-image: url(/img/jigsaw-goldrush-background.jpg); 
+	background-position: 0 0; 
+	background-repeat: no-repeat;
+	background-size: cover; 
+	position: relative;
+}
+
+main {padding: 30px 15px;}
+
+
+.container {
+
+	@include grid-container;
+
+}
+
+.footer {}
+
+section {background: rgba(255,255,255,0.8); margin: 30px auto; max-width: 980px; overflow: hidden; width: 100%;}
+
+ // background-attachment: fixed;  
+  // background-image: url(/img/bird-in-sky-back-2.jpg);
+  // background-position: bottom 18em;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // -moz-background-size: cover;
+  // -webkit-background-size: cover;
+
+@media only screen and (min-width: 451px) {
+	
+	
+}
+
+
+@media only screen and (min-width: 768px) {
+	section {padding: 30px;}
+}
+
+@media only screen and (min-width: 1024px) {
+	
+
+}
+
+@media only screen and (min-width: 1400px) {
+	
+}

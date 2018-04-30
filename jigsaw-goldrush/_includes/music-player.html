@@ -1,0 +1,42 @@
+{% for m in site.data.music %}
+{% if m.featured == 0 %}
+<h2 class="ep-title">{{ m.title }}</h2>
+{% endif %} 
+<div class="ep_cont ep_cont--musicpage ep_cont--{{ m.embed-type }}">    
+    {% if m.embed-type == 'spotify' %}  
+    <div class="embed-cont embed-cont--spotify">
+        <iframe src="//embed.spotify.com/?uri=spotify%3Aalbum%3A{{ m.spotify-id }}" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+    </div>
+    <a href="{{ m.link-bandcamp }}" class="ep-cover-link" target="_blank"><img src="{{ m.cover }}" alt="{{ m.title }}" /></a>
+    {% endif %}             
+    {% if m.embed-type == 'bandcamp' %} 
+    <div class="embed-cont embed-cont--bandcamp">
+        <iframe style="border: 0; width: 300px; height: 300px;" src="//bandcamp.com/EmbeddedPlayer/album={{ m.bandcamp-id }}/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="{{ m.link-bandcamp }}">{{ m.title }}</a></iframe>         
+    </div>
+    {% endif %} 
+    <div class="music-link-cont">
+        <a href="{{ m.link-bandcamp }}" class="music-link" target="_blank">
+            <span><i class="fa fa-bandcamp music-logo music-logo--bandcamp"></i> Bandcamp</span> 
+            <span><span class="btn btn--play">Download</span></span>
+        </a>        
+        {% if m.link-itunes %}
+            <a href="{{ m.link-itunes }}" class="music-link" target="_blank">
+                <span><i class="fa fa-apple music-logo music-logo--itunes"></i> Music</span> 
+                <span><span class="btn btn--play">Play</span></span>
+            </a>
+        {% endif %}
+        {% if m.link-amazon %}
+            <a href="{{ m.link-amazon }}" class="music-link" target="_blank">
+                <span><i class="fa fa-amazon music-logo music-logo--amazon"></i> Amazon</span> 
+                <span><span class="btn btn--play">Play</span></span>
+            </a>
+        {% endif %} 
+        {% if m.link-spotify %}
+            <a href="{{ m.link-spotify }}" class="music-link" target="_blank">
+                <span><i class="fa fa-spotify music-logo music-logo--spotify"></i> Spotify</span> 
+                <span><span class="btn btn--play">Play</span></span>
+            </a>
+        {% endif %}
+    </div>
+</div>
+{% endfor %}
