@@ -37,6 +37,12 @@
                 <span><span class="btn btn--play">Play</span></span>
             </a>
         {% endif %}
+        {% if m.link-soundcloud %}
+            <a href="{{ m.link-soundcloud }}" class="music-link" target="_blank">
+                <span><i class="fa fa-soundcloud music-logo music-logo--soundcloud"></i> Soundcloud</span> 
+                <span><span class="btn btn--play">Play</span></span>
+            </a>
+        {% endif %}
     </div>
 </div>
 {% endfor %}
