@@ -10,9 +10,9 @@ layout: default
 
 <h2>About</h2>
 
-<p>Piano days is a collection of ten piano pieces I recorded way back in the latter half of 2015. It was originally created as a gift to my Wife as relaxation music during the birth of our first child and was subsequently used during the birth of our second.</p>
+<p>Piano days is a collection of ten piano pieces I recorded way back in the latter half of 2015. It was originally created as a gift to my wife as relaxation music during the birth of our first child and was subsequently used during the birth of our second.</p>
 
-<p>The pieces are for solo piano, recorded live on my parents old upright with the odd overdub on a couple of them. You can download it for free/pay what you like from the Bandcamp page, or listen via Spotify, iTunes etc.</p>
+<p>The pieces are for solo piano, recorded live on my parent's old upright with the odd overdub on a couple of them. You can download it for free or pay what you like from the Bandcamp page, or listen via Spotify, iTunes etc.</p>
 
 <p>Why the name Jigsaw Goldrush? Well, when I was emptying out my parents house a couple of years back I came across a cupboard full of boxes of jigsaw puzzles. It was like finding a goldrush of jigsaws!</p>
 
