@@ -9,8 +9,6 @@ layout: default
 
 <p>Use the player and links above to hear and download the album. Using Bandcamp means you can set your own price, suggested donation of &pound;5, with more of the money going straight to the artist.</p>
 
-<p><strong>1st May 2018:</strong> Spotify &amp; Apple Music links will be on here later this week.</p>
-
 <h2>About</h2>
 
 <p>Piano days is a collection of ten piano pieces I recorded way back in the latter half of 2015. It was originally created as a gift to my wife as relaxation music during the birth of our first child and was subsequently used during the birth of our second.</p>
