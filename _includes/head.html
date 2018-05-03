@@ -3,7 +3,7 @@
     <link href="https://fonts.googleapis.com/css?family=Alegreya|Source+Sans+Pro" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title}}{% endif %}</title>
-    <meta name="description" content="{% if page.title %}{{ page.title }}{% endif %} - {{ site.description }}" />
+    <meta name="description" content="{% if page.title %}{{ page.title }}. {% endif %}{{ site.description }}" />
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -20,13 +20,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/img/icons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png">
-  <meta property="og:image" content="/img/jigsaw-goldrush-300x300.jpg" />
-  <meta property="og:image:width" content="300" />
-  <meta property="og:image:height" content="300" />
-    <link rel="stylesheet" href="/css/main-styles.css" />
-    
-    
-
-
-             
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title}}{% endif %}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ site.url}}{{ page.url }}" />
+    <meta property="og:image" content="{{ site.url }}/img/jigsaw-goldrush-piano-days.jpg" />    
+    <meta property="og:image:width" content="1425" />
+    <meta property="og:image:height" content="1425" />
+    <link rel="stylesheet" href="/css/main-styles.css" />   
   </head>
