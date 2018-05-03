@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
-<div class="col-cont text-section"> 
+<div class="col-cont player-section"> 
     {% include music-player.html %}
-
+</div>
+<div class="col-cont text-section"> 
 <h2>Piano Days - relaxing piano music for meditation, hypnobirthing etc</h2>
 
 <p>Use the player and links above to hear and download the album. Using Bandcamp means you can set your own price, suggested donation of &pound;5, with more of the money going straight to the artist.</p>
